@@ -1,0 +1,14 @@
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-primary;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+$breakpoints: (
+  small: 322px,
+  medium: 770px,
+  large: 1400px,
+);

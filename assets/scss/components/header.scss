@@ -1,0 +1,24 @@
+.logo {
+  img{
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+}
+.top-bar {
+background-color: white;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+  color:$color-black;
+}
+.top-bar .toggle-topbar.menu-icon a span::after {
+box-shadow: 0 0px 0 1px #DA262D, 0 7px 0 1px #DA262D, 0 14px 0 1px #DA262D;
+// padding-left: 25px;
+}
+.phone {
+  padding-right: 25px;
+  img {
+    padding-right: 5px;
+  }
+}
